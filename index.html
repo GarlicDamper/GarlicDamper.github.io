@@ -93,11 +93,78 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        
+        <h1 id="MarkDown快速入门（Typora）"><a href="#MarkDown快速入门（Typora）" class="headerlink" title="MarkDown快速入门（Typora）"></a>MarkDown快速入门（Typora）</h1><p>##代码块：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//代码块语法：</span></span><br><span class="line">   </span><br><span class="line"><span class="comment">// test</span></span><br></pre></td></tr></table></figure>
+<p>1、Java代码</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.yrp.po;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> javax.persistence.*;</span><br><span class="line"><span class="keyword">import</span> java.util.ArrayList;</span><br><span class="line"><span class="keyword">import</span> java.util.Date;</span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"></span><br><span class="line"><span class="meta">@Entity</span></span><br><span class="line"><span class="meta">@Table(name = &quot;t_user&quot;)</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">User</span> </span>&#123;</span><br><span class="line">    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>2、Shell代码</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">// linux下，spring项目的启动命令</span><br><span class="line"><span class="meta">#</span><span class="bash"> java -jar blog start</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h2 id="2、-标题："><a href="#2、-标题：" class="headerlink" title="2、 标题："></a>2、 标题：</h2><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br><span class="line">#### 四级标题</span><br><span class="line">##### 五级标题</span><br><span class="line">###### 六级标题</span><br></pre></td></tr></table></figure>
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><h2 id="3、字体"><a href="#3、字体" class="headerlink" title="3、字体"></a>3、字体</h2><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 加粗</span></span><br><span class="line">**等不到天黑**</span><br><span class="line"><span class="comment">// 代码高亮显示</span></span><br><span class="line">==我很帅==</span><br><span class="line"><span class="comment">// 删除线</span></span><br><span class="line">~被删除的问题~</span><br><span class="line"><span class="comment">// 斜体</span></span><br><span class="line">*斜体内容*</span><br><span class="line"><span class="comment">// 下划线</span></span><br><span class="line">&lt;u&gt;下划线&lt;/u&gt;</span><br></pre></td></tr></table></figure>
+
+<p><strong>等不到天黑</strong></p>
+<p>==我很帅==</p>
+<p><del>被删除的问题</del></p>
+<p><em>斜体内容</em></p>
+<p><u>下划线</u></p>
+<h2 id="4、引用："><a href="#4、引用：" class="headerlink" title="4、引用："></a>4、引用：</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 引用语法</span></span><br><span class="line">&gt;作者：李辰煊</span><br><span class="line">&gt;&gt;作者：李辰煊</span><br><span class="line">&gt;&gt;&gt;作者：李辰煊</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>作者：李辰煊</p>
+<blockquote>
+<p>作者：李辰煊</p>
+<blockquote>
+<p>作者：李辰煊</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h2 id="5、分割线："><a href="#5、分割线：" class="headerlink" title="5、分割线："></a>5、分割线：</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 分割线</span></span><br><span class="line">---</span><br><span class="line"><span class="comment">// 分割线2</span></span><br><span class="line">***</span><br></pre></td></tr></table></figure>
+<hr>
+<hr>
+<h2 id="6、图片插入："><a href="#6、图片插入：" class="headerlink" title="6、图片插入："></a>6、图片插入：</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 在线图片</span></span><br><span class="line">![我的照片](/image/me.png)--图片路径</span><br></pre></td></tr></table></figure>
+<p><img src="https://exp-picture.cdn.bcebos.com/fdb4f00d3aceaad7de023c57eee7340f6578b8c2.jpg?x-bce-process=image/resize,m_lfit,w_500,limit_1" alt="我的照片"></p>
+<p><img src="C:\Users\PC-xuan\Downloads\猫头鹰.jpeg" alt="本地图片"></p>
+<h2 id="7、超链接："><a href="#7、超链接：" class="headerlink" title="7、超链接："></a>7、超链接：</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 超链接语法</span></span><br><span class="line">[我的GitHub](https:<span class="comment">//github.com/GarlicDamper)</span></span><br></pre></td></tr></table></figure>
+<p><a target="_blank" rel="noopener" href="https://github.com/GarlicDamper">我的GitHub</a></p>
+<h2 id="8、列表："><a href="#8、列表：" class="headerlink" title="8、列表："></a>8、列表：</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 无序列表</span></span><br><span class="line">- 目录<span class="number">1</span></span><br><span class="line">- 目录<span class="number">2</span></span><br><span class="line">- 目录<span class="number">3</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>目录1</li>
+<li>目录2</li>
+<li>目录3</li>
+</ul>
+<ol>
+<li>首页</li>
+<li>分类</li>
+<li>标签</li>
+</ol>
+<h2 id="9、表格："><a href="#9、表格：" class="headerlink" title="9、表格："></a>9、表格：</h2><table>
+<thead>
+<tr>
+<th align="center">成绩</th>
+<th align="center">语文</th>
+<th align="center">数学</th>
+<th align="center">英语</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<h2 id="10、查看源码"><a href="#10、查看源码" class="headerlink" title="10、查看源码"></a>10、查看源码</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// Ctrl+/</span></span><br></pre></td></tr></table></figure>
+<h3 id="这是三级标题"><a href="#这是三级标题" class="headerlink" title="这是三级标题"></a>这是三级标题</h3><p>$$<br>\lim_{x \to \infin}\frac{sin(t)}{x}=1<br>$$<br>就是在一段中可以插入 $$  公式。</p>
+<h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2021/01/18/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/" data-id="ckk2odbgj0001aouqfh1g1a5j" data-title="我的第一篇博客文章" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2021/01/18/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/" data-id="ckk2qrg200001ecuq3hdx8vez" data-title="我的第一篇博客文章" class="article-share-link">Share</a>
       
       
       
@@ -144,7 +211,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2021/01/18/hello-world/" data-id="ckk2odbgd0000aouq003ghpcl" data-title="Hello World" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2021/01/18/hello-world/" data-id="ckk2qrg1q0000ecuqhn450j2n" data-title="Hello World" class="article-share-link">Share</a>
       
       
       
